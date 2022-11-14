@@ -11,9 +11,9 @@
             <!--  Propiedades de configuracion de JDBC para Postgres	-->
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
             <!-- Cambiar el time zone -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgres://localhost:5432/example?serverTimezone=UTC" />
-            <property name="javax.persistence.jdbc.user" value="postgres" />
-            <property name="javax.persistence.jdbc.password" value="example" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgres://ec2-52-23-131-232.compute-1.amazonaws.comlocalhost:5432/dbp3ns2gnkevo8?serverTimezone=UTC" />
+            <property name="javax.persistence.jdbc.user" value="uymfhdnwnlufmg" />
+            <property name="javax.persistence.jdbc.password" value="d055e09603c90839c949b362d5d18276765f883abd35b04c270cb490582cecb8" />
 
             <!-- Propiedad para la generacion automatica del esquema de base de datos -->
             <property name="hibernate.hbm2ddl.auto" value="create" />
